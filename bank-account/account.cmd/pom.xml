@@ -14,7 +14,7 @@
 	<name>account.cmd</name>
 	<description>Bank Account Command API project</description>
 	<properties>
-		<java.version>16</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -55,6 +55,7 @@
 		<dependency>
 			<groupId>org.springframework.kafka</groupId>
 			<artifactId>spring-kafka-test</artifactId>
+			<version>3.0.0</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
